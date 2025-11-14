@@ -1,50 +1,12 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<reisid>
+﻿<reisid>
 	<reis>
-		<lennujaam nimi="Jaime Gonzalez Airport" kood="CU">
-			<hotel hotellnimi="Homenick Inc">
-				<transport>Ford</transport>
-				<kestus>4</kestus>
-				<hind>1238.39</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>UK</lahkumine>
-				<saabumine>France</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="San Antonio Del Tachira Airport" kood="VE">
-			<hotel hotellnimi="Hauck, Daniel and Welch">
-				<transport>Lexus</transport>
-				<kestus>3</kestus>
-				<hind>547.21</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>France</lahkumine>
-				<saabumine>Germany</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Marathon Airport" kood="CA">
-			<hotel hotellnimi="Raynor-Leuschke">
-				<transport>Mazda</transport>
-				<kestus>4</kestus>
-				<hind>529.64</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Thailand</lahkumine>
-				<saabumine>Singapore</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Mitchell Plateau Airport" kood="AU">
-			<hotel hotellnimi="O'Kon, O'Hara and Hilpert">
-				<transport>Mercedes-Benz</transport>
-				<kestus>2</kestus>
-				<hind>1038.72</hind>
+		<lennujaam nimi="Sofia Airport" kood="SOF">
+			<hotel hotellnimi="Nitzsche, Jacobs and Abbott" tarnid="1">
+				<transport>rong</transport>
+				<lennu_hind>372.62</lennu_hind>
+				<hotelli_hind>270.13</hotelli_hind>
+				<muud_kulud>80.60</muud_kulud>
+				<koguhind>723.35</koguhind>
 			</hotel>
 			<riigid>
 				<lahkumine>USA</lahkumine>
@@ -53,388 +15,118 @@
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Nice-Côte d'Azur Airport" kood="FR">
-			<hotel hotellnimi="Gibson, Larson and Toy">
-				<transport>Porsche</transport>
-				<kestus>3</kestus>
-				<hind>787.54</hind>
+		<lennujaam nimi="Sabzevar National Airport" kood="AFZ">
+			<hotel hotellnimi="Friesen Inc" tarnid="3">
+				<transport>Lend</transport>
+				<lennu_hind>473.61</lennu_hind>
+				<hotelli_hind>228.03</hotelli_hind>
+				<muud_kulud>2295.54</muud_kulud>
+				<koguhind>2997.18</koguhind>
 			</hotel>
 			<riigid>
-				<lahkumine>Singapore</lahkumine>
-				<saabumine>China</saabumine>
+				<lahkumine>Netherlands</lahkumine>
+				<saabumine>France</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Sacramento International Airport" kood="US">
-			<hotel hotellnimi="Littel Group">
-				<transport>Toyota</transport>
-				<kestus>3</kestus>
-				<hind>1216.11</hind>
+		<lennujaam nimi="Fort Madison Municipal Airport" kood="FMS">
+			<hotel hotellnimi="Kub and Sons" tarnid="2">
+				<transport>rong</transport>
+				<lennu_hind>994.90</lennu_hind>
+				<hotelli_hind>942.85</hotelli_hind>
+				<muud_kulud>1277.95</muud_kulud>
+				<koguhind>3215.70</koguhind>
 			</hotel>
 			<riigid>
-				<lahkumine>Japan</lahkumine>
-				<saabumine>South Korea</saabumine>
+				<lahkumine>Netherlands</lahkumine>
+				<saabumine>France</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="El Charco Airport" kood="CO">
-			<hotel hotellnimi="Koss, Nader and Hane">
-				<transport>Porsche</transport>
-				<kestus>3</kestus>
-				<hind>752.04</hind>
+		<lennujaam nimi="Aripuanã Airport" kood="AIR">
+			<hotel hotellnimi="Bechtelar-Spencer" tarnid="2">
+				<transport>Lend</transport>
+				<lennu_hind>1123.57</lennu_hind>
+				<hotelli_hind>290.91</hotelli_hind>
+				<muud_kulud>2431.88</muud_kulud>
+				<koguhind>3846.36</koguhind>
 			</hotel>
 			<riigid>
-				<lahkumine>France</lahkumine>
-				<saabumine>Germany</saabumine>
+				<lahkumine>USA</lahkumine>
+				<saabumine>USA</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Bassel Al-Assad International Airport" kood="SY">
-			<hotel hotellnimi="Moen, Ritchie and Farrell">
-				<transport>Toyota</transport>
-				<kestus>4</kestus>
-				<hind>1419.55</hind>
+		<lennujaam nimi="Summerside Airport" kood="YSU">
+			<hotel hotellnimi="Koepp and Sons" tarnid="5">
+				<transport>laev</transport>
+				<lennu_hind>1314.64</lennu_hind>
+				<hotelli_hind>798.86</hotelli_hind>
+				<muud_kulud>992.07</muud_kulud>
+				<koguhind>3105.57</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Netherlands</lahkumine>
+				<saabumine>Italy</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Bathurst Airport" kood="ZBF">
+			<hotel hotellnimi="McKenzie-Lebsack" tarnid="5">
+				<transport>laev</transport>
+				<lennu_hind>1175.06</lennu_hind>
+				<hotelli_hind>1443.68</hotelli_hind>
+				<muud_kulud>2839.53</muud_kulud>
+				<koguhind>5458.27</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Spain</lahkumine>
+				<saabumine>France</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Arthur's Town Airport" kood="ATC">
+			<hotel hotellnimi="Keeling and Sons" tarnid="5">
+				<transport>buss</transport>
+				<lennu_hind>754.07</lennu_hind>
+				<hotelli_hind>1074.30</hotelli_hind>
+				<muud_kulud>2691.19</muud_kulud>
+				<koguhind>4519.56</koguhind>
 			</hotel>
 			<riigid>
 				<lahkumine>Qatar</lahkumine>
-				<saabumine>Germany</saabumine>
+				<saabumine>Spain</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Mashhad International Airport" kood="IR">
-			<hotel hotellnimi="Lowe-Beier">
-				<transport>Toyota</transport>
-				<kestus>2</kestus>
-				<hind>1357.81</hind>
+		<lennujaam nimi="Rovaniemi Airport" kood="RVN">
+			<hotel hotellnimi="Corkery-Murray" tarnid="5">
+				<transport>Lend</transport>
+				<lennu_hind>1237.41</lennu_hind>
+				<hotelli_hind>398.23</hotelli_hind>
+				<muud_kulud>2638.46</muud_kulud>
+				<koguhind>4274.10</koguhind>
 			</hotel>
 			<riigid>
-				<lahkumine>USA</lahkumine>
-				<saabumine>USA</saabumine>
+				<lahkumine>Spain</lahkumine>
+				<saabumine>Italy</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Prince Mangosuthu Buthelezi Airport" kood="ZA">
-			<hotel hotellnimi="Mayer and Sons">
-				<transport>GMC</transport>
-				<kestus>3</kestus>
-				<hind>398.99</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>South Africa</lahkumine>
-				<saabumine>France</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Kalokol Airport" kood="KE">
-			<hotel hotellnimi="Jacobson and Sons">
-				<transport>Chevrolet</transport>
-				<kestus>4</kestus>
-				<hind>1011.99</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Thailand</lahkumine>
-				<saabumine>Singapore</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Caye Chapel Airport" kood="BZ">
-			<hotel hotellnimi="Smith Inc">
-				<transport>Nissan</transport>
-				<kestus>3</kestus>
-				<hind>532.11</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Qatar</lahkumine>
-				<saabumine>Ethiopia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Indagen Airport" kood="PG">
-			<hotel hotellnimi="Ward-Wiegand">
-				<transport>Toyota</transport>
-				<kestus>4</kestus>
-				<hind>1368.21</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>UK</lahkumine>
-				<saabumine>France</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Ilulissat Airport" kood="GL">
-			<hotel hotellnimi="Bergstrom-Hauck">
-				<transport>Buick</transport>
-				<kestus>19</kestus>
-				<hind>1243.35</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Australia</lahkumine>
-				<saabumine>Argentina</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Ordu Giresun Airport" kood="TR">
-			<hotel hotellnimi="Hane, Witting and Macejkovic">
-				<transport>Mercury</transport>
-				<kestus>3</kestus>
-				<hind>1143.20</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>France</lahkumine>
-				<saabumine>Germany</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Kostanay West Airport" kood="KZ">
-			<hotel hotellnimi="Cormier-Rolfson">
-				<transport>MINI</transport>
-				<kestus>5</kestus>
-				<hind>468.49</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>India</lahkumine>
-				<saabumine>UAE</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Southdowns Airport" kood="ZM">
-			<hotel hotellnimi="Jerde, Okuneva and Rippin">
-				<transport>Nissan</transport>
-				<kestus>5</kestus>
-				<hind>941.85</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>New Zealand</lahkumine>
-				<saabumine>Australia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Ulyanovsk East Airport" kood="RU">
-			<hotel hotellnimi="Gerhold, Goldner and McKenzie">
-				<transport>BMW</transport>
-				<kestus>3</kestus>
-				<hind>1497.39</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Germany</lahkumine>
-				<saabumine>France</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Moala Airport" kood="FJ">
-			<hotel hotellnimi="Mitchell-Bernier">
-				<transport>Dodge</transport>
-				<kestus>2</kestus>
-				<hind>344.94</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>India</lahkumine>
-				<saabumine>India</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Borlange Airport" kood="SE">
-			<hotel hotellnimi="Stoltenberg-Towne">
-				<transport>Toyota</transport>
-				<kestus>5</kestus>
-				<hind>1190.37</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>New Zealand</lahkumine>
-				<saabumine>Australia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Karamay Airport" kood="CN">
-			<hotel hotellnimi="Toy-McDermott">
-				<transport>Daewoo</transport>
-				<kestus>4</kestus>
-				<hind>1071.80</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Brazil</lahkumine>
-				<saabumine>Canada</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Gwaunaru'u Airport" kood="SB">
-			<hotel hotellnimi="Ebert Inc">
-				<transport>Dodge</transport>
-				<kestus>3</kestus>
-				<hind>836.67</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Qatar</lahkumine>
-				<saabumine>Ethiopia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Laguindingan Airport" kood="PH">
-			<hotel hotellnimi="Sauer-O'Keefe">
-				<transport>Ford</transport>
-				<kestus>3</kestus>
-				<hind>328.13</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Mexico</lahkumine>
-				<saabumine>USA</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Rarotonga International Airport" kood="CK">
-			<hotel hotellnimi="Schultz, Beer and D'Amore">
-				<transport>Mazda</transport>
-				<kestus>5</kestus>
-				<hind>1376.75</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>USA</lahkumine>
-				<saabumine>Colombia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Marromeu Airport" kood="MZ">
-			<hotel hotellnimi="Crona-O'Connell">
-				<transport>Toyota</transport>
-				<kestus>3</kestus>
-				<hind>582.98</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>South Korea</lahkumine>
-				<saabumine>Japan</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Transilvania Târgu Mures International Airport" kood="RO">
-			<hotel hotellnimi="Bergstrom Group">
-				<transport>Fairthorpe</transport>
-				<kestus>3</kestus>
-				<hind>473.41</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Ethiopia</lahkumine>
-				<saabumine>Qatar</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Orapa Airport" kood="BW">
-			<hotel hotellnimi="Schuster and Sons">
-				<transport>Jeep</transport>
-				<kestus>2</kestus>
-				<hind>1476.82</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>India</lahkumine>
-				<saabumine>India</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Nelson Ribeiro Guimarães Airport" kood="BR">
-			<hotel hotellnimi="Funk Group">
-				<transport>Chevrolet</transport>
-				<kestus>4</kestus>
-				<hind>508.30</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>USA</lahkumine>
-				<saabumine>USA</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Vodochody Airport" kood="CZ">
-			<hotel hotellnimi="Harris LLC">
-				<transport>Dodge</transport>
-				<kestus>3</kestus>
-				<hind>909.05</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Japan</lahkumine>
-				<saabumine>South Korea</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Pori Airport" kood="FI">
-			<hotel hotellnimi="Kertzmann, Mitchell and Rowe">
-				<transport>Dodge</transport>
-				<kestus>2</kestus>
-				<hind>1239.08</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>USA</lahkumine>
-				<saabumine>USA</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Nakashibetsu Airport" kood="JP">
-			<hotel hotellnimi="Greenholt-Schamberger">
-				<transport>Lamborghini</transport>
-				<kestus>3</kestus>
-				<hind>905.79</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>Germany</lahkumine>
-				<saabumine>France</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Humberto Delgado Airport (Lisbon Portela Airport)" kood="PT">
-			<hotel hotellnimi="Schowalter, Hintz and Blick">
-				<transport>Ford</transport>
-				<kestus>2</kestus>
-				<hind>695.87</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>India</lahkumine>
-				<saabumine>India</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Biskra Airport" kood="DZ">
-			<hotel hotellnimi="Rice-Pollich">
-				<transport>Mitsubishi</transport>
-				<kestus>5</kestus>
-				<hind>737.99</hind>
-			</hotel>
-			<riigid>
-				<lahkumine>New Zealand</lahkumine>
-				<saabumine>Australia</saabumine>
-			</riigid>
-		</lennujaam>
-	</reis>
-	<reis>
-		<lennujaam nimi="Uttaradit Airport" kood="TH">
-			<hotel hotellnimi="Kerluke, Luettgen and Waters">
-				<transport>Mercedes-Benz</transport>
-				<kestus>3</kestus>
-				<hind>1133.00</hind>
+		<lennujaam nimi="Fallon Municipal Airport" kood="FLX">
+			<hotel hotellnimi="Lakin-McKenzie" tarnid="1">
+				<transport>Lend</transport>
+				<lennu_hind>921.19</lennu_hind>
+				<hotelli_hind>510.23</hotelli_hind>
+				<muud_kulud>1303.46</muud_kulud>
+				<koguhind>2734.88</koguhind>
 			</hotel>
 			<riigid>
 				<lahkumine>China</lahkumine>
@@ -443,24 +135,313 @@
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Castlebar Airport" kood="IE">
-			<hotel hotellnimi="Maggio-Schaefer">
-				<transport>Saab</transport>
-				<kestus>5</kestus>
-				<hind>605.76</hind>
+		<lennujaam nimi="Alegrete Novo Airport" kood="ALQ">
+			<hotel hotellnimi="Ebert-Maggio" tarnid="3">
+				<transport>buss</transport>
+				<lennu_hind>726.74</lennu_hind>
+				<hotelli_hind>1348.18</hotelli_hind>
+				<muud_kulud>1191.54</muud_kulud>
+				<koguhind>3266.46</koguhind>
 			</hotel>
 			<riigid>
-				<lahkumine>New Zealand</lahkumine>
-				<saabumine>Australia</saabumine>
+				<lahkumine>Spain</lahkumine>
+				<saabumine>France</saabumine>
 			</riigid>
 		</lennujaam>
 	</reis>
 	<reis>
-		<lennujaam nimi="Coto 47 Airport" kood="CR">
-			<hotel hotellnimi="Kerluke, Breitenberg and Runolfsdottir">
-				<transport>Toyota</transport>
-				<kestus>2</kestus>
-				<hind>822.42</hind>
+		<lennujaam nimi="Port Hawkesbury Airport" kood="YPS">
+			<hotel hotellnimi="McLaughlin-Herzog" tarnid="5">
+				<transport>buss</transport>
+				<lennu_hind>729.63</lennu_hind>
+				<hotelli_hind>168.45</hotelli_hind>
+				<muud_kulud>1716.07</muud_kulud>
+				<koguhind>2614.15</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>UK</lahkumine>
+				<saabumine>Switzerland</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Nevsehir Kapadokya Airport" kood="NAV">
+			<hotel hotellnimi="Bernier-Schaden" tarnid="5">
+				<transport>Lend</transport>
+				<lennu_hind>994.88</lennu_hind>
+				<hotelli_hind>999.56</hotelli_hind>
+				<muud_kulud>1830.01</muud_kulud>
+				<koguhind>3824.45</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Qatar</lahkumine>
+				<saabumine>Ethiopia</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Kibuli Airstrip" kood="KII">
+			<hotel hotellnimi="Donnelly-Bednar" tarnid="4">
+				<transport>laev</transport>
+				<lennu_hind>1253.42</lennu_hind>
+				<hotelli_hind>942.50</hotelli_hind>
+				<muud_kulud>761.06</muud_kulud>
+				<koguhind>2956.98</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>China</lahkumine>
+				<saabumine>Singapore</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Turkmenabat Airport" kood="CRZ">
+			<hotel hotellnimi="Sanford Inc" tarnid="4">
+				<transport>buss</transport>
+				<lennu_hind>1046.77</lennu_hind>
+				<hotelli_hind>1447.70</hotelli_hind>
+				<muud_kulud>1089.94</muud_kulud>
+				<koguhind>3584.41</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>UK</lahkumine>
+				<saabumine>France</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Ft Devens Moore Army Air Field" kood="AYE">
+			<hotel hotellnimi="Daniel, Lueilwitz and Gutkowski" tarnid="4">
+				<transport>rong</transport>
+				<lennu_hind>1109.35</lennu_hind>
+				<hotelli_hind>1155.09</hotelli_hind>
+				<muud_kulud>1240.85</muud_kulud>
+				<koguhind>3505.29</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Singapore</lahkumine>
+				<saabumine>Japan</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Ostafyevo International Airport" kood="OSF">
+			<hotel hotellnimi="Ratke, Marquardt and Cronin" tarnid="2">
+				<transport>Lend</transport>
+				<lennu_hind>1393.85</lennu_hind>
+				<hotelli_hind>184.91</hotelli_hind>
+				<muud_kulud>2782.62</muud_kulud>
+				<koguhind>4361.38</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>China</lahkumine>
+				<saabumine>Singapore</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Kangiqsualujjuaq (Georges River) Airport" kood="XGR">
+			<hotel hotellnimi="Barton LLC" tarnid="4">
+				<transport>Lend</transport>
+				<lennu_hind>752.26</lennu_hind>
+				<hotelli_hind>228.20</hotelli_hind>
+				<muud_kulud>309.69</muud_kulud>
+				<koguhind>1290.15</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Denmark</lahkumine>
+				<saabumine>France</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Stephenville Clark Regional Airport" kood="SEP">
+			<hotel hotellnimi="Mann, Schaefer and Wehner" tarnid="2">
+				<transport>buss</transport>
+				<lennu_hind>1086.04</lennu_hind>
+				<hotelli_hind>1022.22</hotelli_hind>
+				<muud_kulud>2408.58</muud_kulud>
+				<koguhind>4516.84</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Germany</lahkumine>
+				<saabumine>France</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Aba Tenna Dejazmach Yilma International Airport" kood="DIR">
+			<hotel hotellnimi="Marvin LLC" tarnid="1">
+				<transport>laev</transport>
+				<lennu_hind>1290.66</lennu_hind>
+				<hotelli_hind>679.23</hotelli_hind>
+				<muud_kulud>1199.16</muud_kulud>
+				<koguhind>3169.05</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>USA</lahkumine>
+				<saabumine>USA</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="General E. Mosconi Airport" kood="CRD">
+			<hotel hotellnimi="Rath-Bogan" tarnid="4">
+				<transport>Lend</transport>
+				<lennu_hind>1312.91</lennu_hind>
+				<hotelli_hind>1145.73</hotelli_hind>
+				<muud_kulud>2679.91</muud_kulud>
+				<koguhind>5138.55</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>South Korea</lahkumine>
+				<saabumine>Japan</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Lokichoggio Airport" kood="LKG">
+			<hotel hotellnimi="Hand Group" tarnid="1">
+				<transport>auto</transport>
+				<lennu_hind>415.03</lennu_hind>
+				<hotelli_hind>420.63</hotelli_hind>
+				<muud_kulud>2332.46</muud_kulud>
+				<koguhind>3168.12</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Canada</lahkumine>
+				<saabumine>India</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Kefallinia Airport" kood="EFL">
+			<hotel hotellnimi="Klein, Metz and Herzog" tarnid="4">
+				<transport>auto</transport>
+				<lennu_hind>403.44</lennu_hind>
+				<hotelli_hind>299.14</hotelli_hind>
+				<muud_kulud>873.25</muud_kulud>
+				<koguhind>1575.83</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Japan</lahkumine>
+				<saabumine>South Korea</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Karimui Airport" kood="KMR">
+			<hotel hotellnimi="Hansen-Blanda" tarnid="4">
+				<transport>auto</transport>
+				<lennu_hind>415.32</lennu_hind>
+				<hotelli_hind>514.75</hotelli_hind>
+				<muud_kulud>1144.98</muud_kulud>
+				<koguhind>2075.05</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Japan</lahkumine>
+				<saabumine>South Korea</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Westsound/Wsx Seaplane Base" kood="WSX">
+			<hotel hotellnimi="Pacocha-Tromp" tarnid="5">
+				<transport>laev</transport>
+				<lennu_hind>1203.38</lennu_hind>
+				<hotelli_hind>228.06</hotelli_hind>
+				<muud_kulud>2108.52</muud_kulud>
+				<koguhind>3539.96</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Singapore</lahkumine>
+				<saabumine>China</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Ástor Piazzola International Airport" kood="MDQ">
+			<hotel hotellnimi="Bosco LLC" tarnid="4">
+				<transport>buss</transport>
+				<lennu_hind>857.24</lennu_hind>
+				<hotelli_hind>1361.78</hotelli_hind>
+				<muud_kulud>1546.66</muud_kulud>
+				<koguhind>3765.68</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Singapore</lahkumine>
+				<saabumine>China</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Kanti Airport" kood="KHM">
+			<hotel hotellnimi="Bartoletti Group" tarnid="4">
+				<transport>rong</transport>
+				<lennu_hind>549.68</lennu_hind>
+				<hotelli_hind>72.14</hotelli_hind>
+				<muud_kulud>1594.21</muud_kulud>
+				<koguhind>2216.03</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Mexico</lahkumine>
+				<saabumine>USA</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Brookings Regional Airport" kood="BKX">
+			<hotel hotellnimi="Watsica-Nolan" tarnid="4">
+				<transport>rong</transport>
+				<lennu_hind>910.40</lennu_hind>
+				<hotelli_hind>357.85</hotelli_hind>
+				<muud_kulud>1693.34</muud_kulud>
+				<koguhind>2961.59</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>Brazil</lahkumine>
+				<saabumine>Argentina</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Bremerhaven Airport" kood="BRV">
+			<hotel hotellnimi="Buckridge and Sons" tarnid="3">
+				<transport>laev</transport>
+				<lennu_hind>275.76</lennu_hind>
+				<hotelli_hind>482.62</hotelli_hind>
+				<muud_kulud>263.93</muud_kulud>
+				<koguhind>1022.31</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>India</lahkumine>
+				<saabumine>Thailand</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Aosta Airport" kood="AOT">
+			<hotel hotellnimi="Kertzmann Group" tarnid="4">
+				<transport>auto</transport>
+				<lennu_hind>1286.61</lennu_hind>
+				<hotelli_hind>171.89</hotelli_hind>
+				<muud_kulud>765.13</muud_kulud>
+				<koguhind>2223.63</koguhind>
+			</hotel>
+			<riigid>
+				<lahkumine>China</lahkumine>
+				<saabumine>Singapore</saabumine>
+			</riigid>
+		</lennujaam>
+	</reis>
+	<reis>
+		<lennujaam nimi="Antsalova Airport" kood="WAQ">
+			<hotel hotellnimi="Gleichner-Marquardt" tarnid="5">
+				<transport>auto</transport>
+				<lennu_hind>806.05</lennu_hind>
+				<hotelli_hind>707.81</hotelli_hind>
+				<muud_kulud>288.01</muud_kulud>
+				<koguhind>1801.87</koguhind>
 			</hotel>
 			<riigid>
 				<lahkumine>USA</lahkumine>
