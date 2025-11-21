@@ -22,62 +22,60 @@
 			</head>
 			<body>
 
-				<xsl:for-each select="reis[contains(lennujaam/hotel/transport, 'Lend') or contains(lennujaam/hotel/transport, 'lend')]">
-					<xsl:sort select="number(lennujaam/hotel/@tarnid)" data-type="number" order="ascending"/>
+				<!--1. Kuvada iga reisi sihtkoht pealkirjana, kasutades <h1>.
 					<h1>
 						<xsl:value-of select="lennujaam/@nimi"/>
 						(<xsl:value-of select="lennujaam/@kood"/>)
 					</h1>
-
+					
+					2. Komponendid peavad olema kuvatud täpploeteluna (<ul>).
 					<ul>
 						<li>
-							<xsl:text>Transport: </xsl:text>
 							<xsl:value-of select="lennujaam/hotel/transport"/>
 						</li>
 
 						<li>
-							<xsl:text>Hotell: </xsl:text>
 							<xsl:value-of select="lennujaam/hotel/@hotellnimi"/>
 						</li>
 
 						<li>
-							<xsl:text>Tärnid: </xsl:text>
 							<xsl:value-of select="lennujaam/hotel/@tarnid"/>
 						</li>
 
 						<li>
+							3. Kolmanda taseme struktuuri andmed tuleb kuvada kollasel taustal.
 							<span class="yellow">
-								Lennu hind: <xsl:value-of select="lennujaam/hotel/lennu_hind"/>
+								<xsl:value-of select="lennujaam/hotel/lennu_hind"/>
 							</span>
 						</li>
 
 						<li>
 							<span class="yellow">
-								Hotelli hind: <xsl:value-of select="lennujaam/hotel/hotelli_hind"/>
+								<xsl:value-of select="lennujaam/hotel/hotelli_hind"/>
 							</span>
 						</li>
-
 						<li>
+
 							<span class="yellow">
-								Muud kulud: <xsl:value-of select="lennujaam/hotel/muud_kulud"/>
+								<xsl:value-of select="lennujaam/hotel/muud_kulud"/>
 							</span>
 						</li>
 
 						<li>
-							<xsl:text>Lahkumise riik: </xsl:text>
 							<xsl:value-of select="lennujaam/riigid/lahkumine"/>
 						</li>
 
 						<li>
-							<xsl:text>Saabumise riik: </xsl:text>
 							<xsl:value-of select="lennujaam/riigid/saabumine"/>
 						</li>
 
 						<li>
-							<xsl:variable name="kokku"
-                                select="number(lennujaam/hotel/lennu_hind) +
-                                        number(lennujaam/hotel/hotelli_hind) +
-                                        number(lennujaam/hotel/muud_kulud)"/>
+							5. Kuva iga reisi kogumaksumuse, liites transport, majutuse, ekskursioonide ja muude kulude hinnad kokku.
+							<xsl:variable name="lendu" select="number(lennujaam/hotel/lennu_hind)"/>
+							<xsl:variable name="hotell" select="number(lennujaam/hotel/hotelli_hind)"/>
+							<xsl:variable name="muu" select="number(lennujaam/hotel/muud_kulud)"/>
+							<xsl:variable name="kokku" select="$lendu + $hotell + $muu"/>
+
 							<xsl:choose>
 								<xsl:when test="$kokku &gt; 3000">
 									<span class="expensive">
@@ -89,10 +87,26 @@
 									<xsl:value-of select="format-number($kokku,'0.00')"/>
 								</xsl:otherwise>
 							</xsl:choose>
+							
+							4. Lisa oma tingimus (nt reisi hind või eriline soovitus peab olema esile tõstetud teatud tingimustel).
+							<span>
+								<xsl:attribute name="class">
+									<xsl:if test="$kokku > 3000">expensive</xsl:if>
+								</xsl:attribute>
+								<xsl:value-of select="format-number($kokku,'0.00')"/>
+							</span>
 						</li>
 					</ul>
-				</xsl:for-each>
+					
+					6. Filtreeri ja kuva ainult need reisid, mille transport sisaldab lennureisi.
+					<xsl:for-each select="reis[contains(lennujaam/hotel/transport, 'Lend')">
+					
+					7. Sorteeri kõik reisid vastavalt hinnangule (hotelli tärnide arvu järgi)
+					<xsl:sort select="number(lennujaam/hotel/@tarnid)" data-type="number" order="ascending"/>
+					
+				</xsl:for-each>-->
 
+				<!--8. Kuva kõik xml andmed tabelina, kus read on üle rea erineva värviga.-->
 				<h2>Kõik andmed tabelina</h2>
 
 				<table>
@@ -111,10 +125,10 @@
 					</tr>
 
 					<xsl:for-each select="reis">
-						<xsl:variable name="sum"
-                            select="number(lennujaam/hotel/lennu_hind) +
-                                    number(lennujaam/hotel/hotelli_hind) +
-                                    number(lennujaam/hotel/muud_kulud)"/>
+						<xsl:variable name="lendu" select="number(lennujaam/hotel/lennu_hind)"/>
+							<xsl:variable name="hotell" select="number(lennujaam/hotel/hotelli_hind)"/>
+							<xsl:variable name="muu" select="number(lennujaam/hotel/muud_kulud)"/>
+							<xsl:variable name="kokku" select="$lendu + $hotell + $muu"/>
 						<tr>
 							<td>
 								<xsl:value-of select="lennujaam/@nimi"/>
@@ -150,7 +164,7 @@
 								<xsl:value-of select="lennujaam/hotel/muud_kulud"/>
 							</td>
 							<td>
-								<xsl:value-of select="format-number($sum,'0.00')"/>
+								<xsl:value-of select="format-number($kokku,'0.00')"/>
 							</td>
 							<td>
 								<xsl:value-of select="lennujaam/riigid/lahkumine"/>
