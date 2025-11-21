@@ -22,60 +22,64 @@
 			</head>
 			<body>
 
-				<!--1. Kuvada iga reisi sihtkoht pealkirjana, kasutades <h1>.
+				<!-- 6. Filtreeri ja kuva ainult need reisid, mille transport sisaldab lennureisi. --><!--
+				<xsl:for-each select="reis[contains(lennujaam/hotel/transport, 'Lend')]">
+
+					--><!-- 7. Sorteeri kõik reisid vastavalt hotelli tärnidele --><!--
+					<xsl:sort select="number(lennujaam/hotel/@tarnid)" data-type="number" order="ascending"/>
+
+					--><!--1. Kuvada iga reisi sihtkoht pealkirjana, kasutades <h1>.--><!--
 					<h1>
-						<xsl:value-of select="lennujaam/@nimi"/>
-						(<xsl:value-of select="lennujaam/@kood"/>)
+						<xsl:value-of select="lennujaam/@nimi"/> (<xsl:value-of select="lennujaam/@kood"/>)
 					</h1>
-					
-					2. Komponendid peavad olema kuvatud täpploeteluna (<ul>).
+
+					--><!--2. Komponendid peavad olema kuvatud täpploeteluna (<ul>).--><!--
 					<ul>
+
 						<li>
 							<xsl:value-of select="lennujaam/hotel/transport"/>
 						</li>
-
 						<li>
 							<xsl:value-of select="lennujaam/hotel/@hotellnimi"/>
 						</li>
-
 						<li>
 							<xsl:value-of select="lennujaam/hotel/@tarnid"/>
 						</li>
-
 						<li>
-							3. Kolmanda taseme struktuuri andmed tuleb kuvada kollasel taustal.
-							<span class="yellow">
-								<xsl:value-of select="lennujaam/hotel/lennu_hind"/>
-							</span>
-						</li>
-
-						<li>
-							<span class="yellow">
-								<xsl:value-of select="lennujaam/hotel/hotelli_hind"/>
-							</span>
+							<xsl:value-of select="lennujaam/hotel/lennu_hind"/>
 						</li>
 						<li>
-
-							<span class="yellow">
-								<xsl:value-of select="lennujaam/hotel/muud_kulud"/>
-							</span>
+							<xsl:value-of select="lennujaam/hotel/hotelli_hind"/>
+						</li>
+						<li>
+							<xsl:value-of select="lennujaam/hotel/muud_kulud"/>
 						</li>
 
 						<li>
 							<xsl:value-of select="lennujaam/riigid/lahkumine"/>
 						</li>
-
 						<li>
 							<xsl:value-of select="lennujaam/riigid/saabumine"/>
 						</li>
+					</ul>
+					--><!--3. Kollase taustaga väljad--><!--
+					<span class="yellow">
+						<xsl:value-of select="lennujaam/hotel/lennu_hind"/>
+					</span>
+					<span class="yellow">
+						<xsl:value-of select="lennujaam/hotel/hotelli_hind"/>
+					</span>
+					<span class="yellow">
+						<xsl:value-of select="lennujaam/hotel/muud_kulud"/>
+					</span>
 
-						<li>
-							5. Kuva iga reisi kogumaksumuse, liites transport, majutuse, ekskursioonide ja muude kulude hinnad kokku.
+							--><!--5. Kogumaksumus--><!--
 							<xsl:variable name="lendu" select="number(lennujaam/hotel/lennu_hind)"/>
 							<xsl:variable name="hotell" select="number(lennujaam/hotel/hotelli_hind)"/>
 							<xsl:variable name="muu" select="number(lennujaam/hotel/muud_kulud)"/>
 							<xsl:variable name="kokku" select="$lendu + $hotell + $muu"/>
 
+							--><!--4. Lisa oma tingimus (nt reisi hind või eriline soovitus peab olema esile tõstetud teatud tingimustel). --><!--
 							<xsl:choose>
 								<xsl:when test="$kokku &gt; 3000">
 									<span class="expensive">
@@ -83,30 +87,24 @@
 									</span>
 								</xsl:when>
 								<xsl:otherwise>
-									<xsl:text>Koguhind: </xsl:text>
-									<xsl:value-of select="format-number($kokku,'0.00')"/>
+									Koguhind: <xsl:value-of select="format-number($kokku,'0.00')"/>
 								</xsl:otherwise>
 							</xsl:choose>
-							
-							4. Lisa oma tingimus (nt reisi hind või eriline soovitus peab olema esile tõstetud teatud tingimustel).
+
+							--><!-- Минимальный вариант подсветки --><!--
 							<span>
 								<xsl:attribute name="class">
 									<xsl:if test="$kokku > 3000">expensive</xsl:if>
 								</xsl:attribute>
 								<xsl:value-of select="format-number($kokku,'0.00')"/>
 							</span>
-						</li>
-					</ul>
-					
-					6. Filtreeri ja kuva ainult need reisid, mille transport sisaldab lennureisi.
-					<xsl:for-each select="reis[contains(lennujaam/hotel/transport, 'Lend')">
-					
-					7. Sorteeri kõik reisid vastavalt hinnangule (hotelli tärnide arvu järgi)
-					<xsl:sort select="number(lennujaam/hotel/@tarnid)" data-type="number" order="ascending"/>
-					
-				</xsl:for-each>-->
+						
 
-				<!--8. Kuva kõik xml andmed tabelina, kus read on üle rea erineva värviga.-->
+					
+
+				</xsl:for-each>
+
+				--><!--8. Kuva kõik xml andmed tabelina, kus read on üle rea erineva värviga.-->
 				<h2>Kõik andmed tabelina</h2>
 
 				<table>
